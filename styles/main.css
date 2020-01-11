@@ -1,14 +1,111 @@
 body {
-    font-family: sans-serif;
+    background: #f0f0f0;
 }
 
-.header {
-    width: 100%;
-    height: 300px;
-    background-color: dodgerblue;
+* {
+    font-family: 'Arial', 'Liberation Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.header .name {
-    font-size: 2em;
+.central-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.card {
+    width: 800px;
+    background: #ffffff;
+    padding: 2em 3.5em;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin: 0.3em 0;
+}
+
+.nested-card {
+    padding: 1rem 0 1em 3em;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.profile-picture {
+    margin-top: .5em;
+    margin-right: 2em;
+}
+
+.name-and-profession {
+    line-height: 1.1;
+}
+
+.name-and-profession h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.name-and-profession h5 {
+    font-size: 1em;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.detail {
+    display: inline-block;
+    line-height: 2;
+    margin-right: 2rem;
+}
+
+.icon {
+    padding-right: 7px;
+}
+.info {
+    font-size: 0.8em;
+}
+
+.link-disguise {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 18px;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+}
+
+h4 .fa, h4 .title {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+h4 .title {
+    font-variant: small-caps;
+    font-weight: 100;
+}
+
+h4 .fa {
+    padding-right: 24px;
+}
+
+
+
+
 
