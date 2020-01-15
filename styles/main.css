@@ -32,7 +32,7 @@ body {
 .contact-info {
     display: flex;
     justify-content: flex-start;
-    padding-bottom: 8px;
+    padding-bottom: 1em;
     border-bottom: 1px solid;
 }
 
@@ -88,7 +88,7 @@ h4 {
     font-size: 18px;
     padding-bottom: 1em;
     border-bottom: 1px solid black;
-    margin-bottom: 1em;
+    margin: 1em 0 1em;
 }
 
 h4 .fa, h4 .title {
@@ -102,7 +102,73 @@ h4 .title {
 }
 
 h4 .fa {
-    padding-right: 24px;
+    padding-right: 2em;
+    width: 1em;
+}
+
+.position {
+}
+
+span.duration {
+    margin-bottom: 0.3em;
+}
+.duration {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.duration .fa {
+    margin: 0 10px;
+}
+
+.tags {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags li {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0.3em;
+    margin: 0.2em;
+    line-height: .8;
+}
+
+.category {
+    width: 300px;
+    margin-bottom: 0.5em;
+}
+
+.tech-skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.languages {
+    display: flex;
+}
+
+.language {
+    width: 300px;
+}
+
+.links p {
+    margin: 1em 0.5em;
+    font-size: 0.9em;
+}
+
+.links .fa, .links a {
+    vertical-align: middle;
+}
+
+.links a:visited {
+    color: #00E;
 }
 
 
