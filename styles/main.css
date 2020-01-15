@@ -33,7 +33,7 @@ body {
     display: flex;
     justify-content: flex-start;
     padding-bottom: 1em;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #eee;
 }
 
 .profile-picture img {
@@ -59,6 +59,7 @@ body {
 .name-and-profession h5 {
     font-size: 1em;
     font-weight: lighter;
+    color: #777;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -67,6 +68,10 @@ body {
     display: inline-block;
     line-height: 2;
     margin-right: 2rem;
+}
+
+.detail .fa {
+    color: #888;
 }
 
 .icon {
@@ -87,7 +92,8 @@ a {
 h4 {
     font-size: 18px;
     padding-bottom: 1em;
-    border-bottom: 1px solid black;
+    color: #777;
+    border-bottom: 1px solid #eee;
     margin: 1em 0 1em;
 }
 
@@ -115,6 +121,7 @@ span.duration {
 .duration {
     font-size: 0.9em;
     margin-bottom: 1em;
+    color: #777;
     display: inline-block;
 }
 
@@ -133,16 +140,21 @@ p {
 }
 
 .tags li {
-    border: 1px solid gray;
+    background-color: #eee;
     border-radius: 5px;
     padding: 0.3em;
     margin: 0.2em;
+    font-size: 0.9em;
     line-height: .8;
 }
 
 .category {
     width: 300px;
     margin-bottom: 0.5em;
+}
+
+.category p {
+    font-variant: small-caps;
 }
 
 .tech-skills {
@@ -158,6 +170,11 @@ p {
     width: 300px;
 }
 
+.language .level {
+    font-size: 0.9em;
+    color: #777;
+}
+
 .links p {
     margin: 1em 0.5em;
     font-size: 0.9em;
@@ -167,8 +184,12 @@ p {
     vertical-align: middle;
 }
 
+.links a {
+    color: #007db5;
+}
+
 .links a:visited {
-    color: #00E;
+    color: #007db5;
 }
 
 
